@@ -1,0 +1,29 @@
+USE [WebApps]
+GO
+
+/****** Object:  Table [dbo].[Table1]    Script Date: 12/9/2013 12:02:24 PM ******/
+SET ANSI_NULLS OFF
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Table3](
+	[ID] [int] NOT NULL,
+	[Column1] [varchar](50) NULL,
+	[Column2] [varchar](50) NOT NULL,
+ CONSTRAINT [PrimaryKey_023b238a-5dff-456f-800f-86db4d32f835] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+)
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
